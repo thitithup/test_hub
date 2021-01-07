@@ -7,3 +7,4 @@ class InecoTemp(models.Model):
     _description = 'Temp Class'
 
     name = fields.Char(string='Description', required=True)
+    code = fields.Char(string='Code', required=True)
